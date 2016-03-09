@@ -11,4 +11,34 @@ body{
 	width: 1060px;
 	background-color: #ffffff;
 	margin: 0 auto;
+	padding: 0 45px;
+}
+.header{
+	height: 170px;
+}
+.logo{
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+.menu{
+	height: 40px;
+	background-color: #4f4f4f;
+}
+.top_menu li{
+	list-style: none;
+	float: left;
+	padding-top: 10px;
+	border: 1px solid red;
+}
+.clearfix: after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.top_menu li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14.67px;
+	font-family: Myriad Pro;
+
 }
