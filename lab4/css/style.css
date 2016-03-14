@@ -12,8 +12,15 @@ body{
 	margin: 0 auto;	
 	background: #fff;
 }
+.header{
+	padding-top: 10px;
+}
 .header-right-side{
 	float: right;
+}
+.header-right-side h5, p{
+	font-size: 12px;
+	color: #128aa7;
 }
 .flag-menu li{
 	float: left;
