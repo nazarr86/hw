@@ -11,6 +11,7 @@ body{
 	width: 1000px;
 	margin: 0 auto;	
 	background: #fff;
+	box-shadow: 0px 0px 11px 1px #000000;
 }
 .header{
 	padding-top: 10px;
@@ -56,6 +57,9 @@ body{
 	border-bottom: 1px solid #138aa7;
 	height: 237px;
 }
+.nav{
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
 .menu>li{
 	float: left;
 }
@@ -75,11 +79,13 @@ body{
 	position: relative;
 	list-style: none;
 }
-
+.img-submenu{
+	
+	
+}
 .menu a{
 	display: block;
 	padding-left: 5px;
-	padding-right: 61px;
 	color: white;
 	text-decoration: none;
 	/*border: 1px solid #fff;*/
@@ -89,19 +95,25 @@ body{
 .first-element-menu a{
 	padding-left: 68px;
 }
+.menu li .menu-link{
+	padding-right: 57px;
+}	
+input[type="image"]{
+	margin-left: 5px;
+}
 .submenu{
 	display: none;
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 100%;
+	width: 80%;
 }
 .menu li:hover .submenu{
 	display: block;
 	background: #353535;
 	border-bottom: none;
 	border-top: none;
-	padding-right: 20px;
+	padding-right: 10px;
 	box-shadow: 3px 0px 10px 0px #000, -3px 3px 10px 0px #000;
 
 }
