@@ -3,11 +3,12 @@
 	padding: 0;
 }
 body{
-	background-image:url(../img/background.jpg);
-	background-size: cover;
+	background-image:url(../img/background.png);
+	/*background-size: cover;*/
 	font-family: Tahoma;
 }
 .wrapper{
+	position: relative;
 	width: 1000px;
 	margin: 0 auto;	
 	background: #fff;
@@ -15,7 +16,7 @@ body{
 }
 .header{
 	padding-top: 10px;
-	height: 164px;
+	height: 165px;
 }
 .logo{
 	padding-left: 28px;
@@ -79,9 +80,9 @@ body{
 	position: relative;
 	list-style: none;
 }
-.img-submenu{
-	
-	
+.menu>li>a>span{
+	font-size: 8px;
+	padding-left: 3px;
 }
 .menu a{
 	display: block;
@@ -98,9 +99,6 @@ body{
 .menu li .menu-link{
 	padding-right: 57px;
 }	
-input[type="image"]{
-	margin-left: 5px;
-}
 .submenu{
 	display: none;
 	position: absolute;
@@ -115,7 +113,6 @@ input[type="image"]{
 	border-top: none;
 	padding-right: 10px;
 	box-shadow: 3px 0px 10px 0px #000, -3px 3px 10px 0px #000;
-
 }
 
 /*CONTENT*/
@@ -169,5 +166,13 @@ input[type="image"]{
 	text-align: center;
 	font-size: 12px;
 	color: #128aa7;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
+}
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: -40px;
+	width: 100%;
+	padding-bottom: 10px;
+
 }
