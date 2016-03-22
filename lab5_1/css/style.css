@@ -122,13 +122,13 @@ body{
 }
 .ou-text{
 	position: relative;
-	padding: 33px 0px 27px 0px;
+	padding: 26px 0px 27px 0px;
 }
 .ou{
 	display: block;
 	position: absolute;
-	left: 134px;
-	top: 38px;
+	left: 132px;
+	top: 32px;
 	color:#999999;
 }
 .horizontal-line-2{
@@ -149,6 +149,7 @@ body{
 	border: 0px solid #494a48;
 	border-bottom: 1px solid #494a48;
 	font-size: 14px;
+	color: #cccccc;
 }
 .form-body p{
 	padding: 7px 0;
@@ -168,7 +169,10 @@ body{
 	line-height: 13px;
 }
 .form-body .send-me{
-	padding-top: 13px;
+	padding-top: 11px;
+}
+.send-me span{
+	font-size: 14px;
 }
 .bottom-text{
 	display: inline-block;
