@@ -4,7 +4,6 @@
 }
 body{
 	background-image:url(../img/background.png);
-	/*background-size: cover;*/
 	font-family: Tahoma;
 }
 .wrapper{
@@ -14,6 +13,7 @@ body{
 	background: #fff;
 	box-shadow: 0px 0px 11px 1px #000000;
 }
+/*HEADER*/
 .header{
 	padding-top: 10px;
 	height: 165px;
@@ -59,15 +59,17 @@ body{
 	height: 237px;
 }
 .nav{
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+  background: #353535;
 }
 .menu>li{
 	float: left;
 }
 .menu{
-	background: #353535;
+	display: block;
+	
 	border-top: 1px solid #cacbcb;
 	border-bottom: 1px solid #000000;
+	min-width: 1000px;
 }
 .menu:after{
 	content: "";
@@ -76,9 +78,14 @@ body{
 	height: 0;
 	display: block;
 }
-.menu li{
+.menu>li{
 	position: relative;
+	left: 68px;
+}
+.menu li{
+	
 	list-style: none;
+	
 }
 .menu>li>a>span{
 	font-size: 8px;
@@ -89,12 +96,8 @@ body{
 	padding-left: 5px;
 	color: white;
 	text-decoration: none;
-	/*border: 1px solid #fff;*/
 	line-height: 29px;
 	font-size: 14px;
-}
-.first-element-menu a{
-	padding-left: 68px;
 }
 .menu li .menu-link{
 	padding-right: 57px;
@@ -112,7 +115,9 @@ body{
 	border-bottom: none;
 	border-top: none;
 	padding-right: 10px;
-	box-shadow: 3px 0px 10px 0px #000, -3px 3px 10px 0px #000;
+	-webkit-box-shadow: 0px 5px 8px -3px rgba(50, 50, 50, 0.75);
+	 -moz-box-shadow: 0px 5px 8px -3px rgba(50, 50, 50, 0.75);
+	 box-shadow: 0px 5px 8px -3px rgba(50, 50, 50, 0.75);
 }
 
 /*CONTENT*/
@@ -136,7 +141,7 @@ body{
 }
 .right-column{
 	width: 208px;
-	float: left;
+	float: right;
 	background: #edeef0;
 	padding-bottom: 2000px;
 	margin-bottom: -2000px;
@@ -165,7 +170,7 @@ body{
 .footer p{
 	text-align: center;
 	font-size: 12px;
-	color: #128aa7;
+	color: #ffffff;
 	/*padding-top: 10px;*/
 }
 .footer{
