@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #FFF;
+}
+.wrapper{
+	width: 906px;
+	margin: 0 auto;
+}
+.logo{
+	max-height: 280;
+	background: url(../img/logo.png);
+}
+.contacts{
+}
+.telephon-number{
+	float: left;
+	line-height: 50px;
+}
+.reg-form{
+	float:left;
+	background: grey;	
+}
+.registration,
+.reg-button{
+	display: inline;
+}	
+.mini-nav{
+	float: right;
+	position: relative;
+	top: 0px;
+}
+.mini-nav>li{
+	float: left;
+	list-style: none;
+}
+.numbers{
+	background: url(../img/handset.png) 0 50% no-repeat;
+	padding-left: 26px;
+}
+#userlogin{
+	background: url(../img/login.png) 0 50% no-repeat;
+}
