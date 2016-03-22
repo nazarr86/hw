@@ -1,27 +1,49 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
 	background: #FFF;
+	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 .wrapper{
 	width: 906px;
 	margin: 0 auto;
 }
 .logo{
-	max-height: 280;
-	background: url(../img/logo.png);
+	padding-top: 8px;
 }
-.contacts{
-}
+
 .telephon-number{
 	float: left;
-	line-height: 50px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #5e696d;
+	padding-right: 16px;
+}
+#userlogin{
+	background-color: #fff;
 }
 .reg-form{
 	float:left;
-	background: grey;	
+	background: #1f6787;
+	background: -moz-linear-gradient(top, #1f6787 0%, #0c3357 100%);
+	background: -webkit-linear-gradient(top, #1f6787 0%,#0c3357 100%);
+	background: linear-gradient(to bottom, #1f6787 0%,#0c3357 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0c3357',GradientType=0 );
+	border-radius: 4px/3px;
+	box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+	margin-top: -10px;
 }
 .registration,
 .reg-button{
@@ -36,10 +58,66 @@ body{
 	float: left;
 	list-style: none;
 }
+.contacts{
+	padding: 16px 0 20px 0;
+}
+.contents:after{
+	content: "";
+	clear: both;
+}
 .numbers{
 	background: url(../img/handset.png) 0 50% no-repeat;
 	padding-left: 26px;
 }
+.registration{
+	background: url(../img/login.png) 2% 50% no-repeat;
+	padding-left: 26px;
+}
+#userlogin,
+#password{
+	height: 15px;
+	width: 112px;
+	border: 1px solid #9ba1a3;
+}
 #userlogin{
-	background: url(../img/login.png) 0 50% no-repeat;
+	padding-right: 8px;
+}
+.login,
+.signup,
+.forget-password{
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+}
+.login:hover,
+.signup:hover,
+.forget-password:hover{
+	font-size: 11px;
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+.reg-button span{
+	color: #fff;
+	font-size: 11px;
+	line-height: 25px;
+}
+.forget-password{
+	margin-right: 10px;
+	margin-left: 20px;
+}
+.mini-nav{
+	border: 1px solid #bdc3c7;
+	border-radius: 11px;
+	margin-top: -5px;
+	box-shadow: 2px 3px 3px rgba(0,0,0,0.75);
+}
+.mini-nav img{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.mini-nav img:last-child{
+	padding-right: 10px;
+}
+.mini-nav li{
+	line-height: 19px;
 }
