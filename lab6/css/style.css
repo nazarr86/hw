@@ -193,8 +193,8 @@ nav .top-menu{
 .main .left-column{
 	width: 190px;
 	float: left;
-	background: #3d2af0;
-	padding-bottom: 20000px;
+/*	background: #3d2af0;
+*/	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
 .main .central-column{
@@ -210,4 +210,15 @@ nav .top-menu{
 	background: #e3e244;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
+}
+.main .left-column h5{
+	font-size: 13px;
+	color: #114165;
+	background: url(../img/icon-categori.png) 2% 50% no-repeat;
+	padding-left: 26px;
+	border: 1px solid #79878d;
+	box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+	border-radius: 11px;
+	line-height: 27px;
+	text-align: center;
 }
