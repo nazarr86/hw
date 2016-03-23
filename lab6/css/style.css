@@ -20,10 +20,6 @@ body{
 	width: 906px;
 	margin: 0 auto;
 }
-.logo{
-	padding-top: 8px;
-}
-
 .telephon-number{
 	float: left;
 	font-family: Arial;
@@ -120,4 +116,98 @@ body{
 }
 .mini-nav li{
 	line-height: 19px;
+}
+.logo{
+	padding-top: 8px;
+	
+}
+/*NAV*/
+nav{
+	background: #485160;
+	background: -moz-linear-gradient(top,  #485160 0%, #010101 100%);
+	background: -webkit-linear-gradient(top,  #485160 0%,#010101 100%);
+	background: linear-gradient(to bottom,  #485160 0%,#010101 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#485160', endColorstr='#010101',GradientType=0 );
+	width: 100%;
+	height: 32px;
+	border-radius: 4px/3px;
+	box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+nav .top-menu{
+	float: left;
+}
+nav .basket{
+	float: right;
+}
+nav .top-menu>li{
+	float: left;
+	list-style: none;
+	display: block;
+}
+nav:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.top-menu li a{
+	line-height: 32px;
+	text-decoration: none;
+	padding: 0 14px;
+	font-size: 14px;
+	color: #b1bcc0;
+}
+.top-menu li a:hover{
+	color: #ffffff;
+	background: #25617b;
+	background: -moz-linear-gradient(top,  #25617b 0%, #0c3357 100%);
+	background: -webkit-linear-gradient(top,  #25617b 0%,#0c3357 100%);
+	background: linear-gradient(to bottom,  #25617b 0%,#0c3357 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', endColorstr='#0c3357',GradientType=0 );
+	border-radius: 11px;
+	width: 123px;
+	height: 28px;
+}
+nav .basket .goods{
+	background: url(../img/basket.png) 0 50% no-repeat;
+	padding-left: 26px;
+	font-family: Arial sans-serif;
+	font-size: 11px;
+	color: #929b9f;
+	line-height: 32px;
+	padding-right: 13px;
+}
+nav .basket .numbers-goods{
+	font-size: 12px;
+	color: #0d5a8f;
+}
+nav .top-menu{
+	position: relative;
+	left: 125px;
+}
+/*MAIN*/
+.main{
+	overflow: hidden;
+	width: 960px;
+	margin-top: 5px;
+}
+.main .left-column{
+	width: 190px;
+	float: left;
+	background: #3d2af0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.main .central-column{
+	width: 525px;
+	float: left;
+	background: #e34456;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.main .right-column{
+	width: 190px;
+	float: left;
+	background: #e3e244;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
 }
