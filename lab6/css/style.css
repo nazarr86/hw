@@ -198,7 +198,7 @@ nav .top-menu{
 	margin-bottom: -20000px;
 }
 .main .central-column{
-	width: 525px;
+	width: 507px;
 	float: left;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
@@ -217,7 +217,7 @@ nav .top-menu{
 	margin-left: 10px;
 }
 .main .left-column h5{
-	font-size: 13px;
+	font-size: 12px;
 	color: #114165;
 	background: url(../img/icon-categori.png) 2% 50% no-repeat;
 	padding-left: 26px;
@@ -227,6 +227,7 @@ nav .top-menu{
 	line-height: 27px;
 	text-align: center;
 	margin-bottom: 11px;
+	width: 154px;
 }
 .side-menu>a{
 	border: 1px solid #79878d;
@@ -258,7 +259,7 @@ nav .top-menu{
 	background: url(../img/icon-for-submenu-hover.png) 25% 50% no-repeat;
 }
 .main .right-column h5{
-	font-size: 13px;
+	font-size: 12px;
 	color: #114165;
 	background: url(../img/icon-categori.png) 2% 50% no-repeat;
 	padding-left: 29px;
@@ -267,11 +268,12 @@ nav .top-menu{
 	border-radius: 11px;
 	line-height: 27px;
 	margin-bottom: 11px;
+	width: 149px;
 }
 .right-column h6{
 	border: 1px solid #79878d;
 	line-height: 27px;
-	width: 146px;
+	width: 117px;
 	background: url(../img/icon-for-menu.png) 2% 50% no-repeat;
 	padding-left: 29px;
 	border-radius: 11px;
@@ -310,8 +312,88 @@ nav .top-menu{
 }
 .central-column .item-list{
 	float: left;
+	text-align: center;
 	}
 .central-column:after{
 	content:"";
 	clear: both;
+}
+.item-list .marka-item a{
+	font-size: 14px;
+	color: #206988;
+	text-decoration: none;
+}
+.item-list .name-item p{
+	font-size: 13px;
+}
+.item-list .price-item{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: #114165;
+	line-height: 10px;
+	font-family: Arial sans-serif;
+}
+.item-list .marka-item{
+	line-height: 10px;
+}
+.central-column{
+	padding-left: 21px;
+	padding-top: 16px;
+}
+.item-list{
+	margin-right: 29px;
+	margin-bottom: 28px;
+}
+
+/*FOOTER*/
+.brend-logo .brend-logo-img{
+	float: left;
+	list-style: none;
+	display: block;
+	line-height: 89px;
+	padding-left: 7px;
+	padding-right: 8px;
+}
+.brend-logo:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.brend-logo ul{
+	position: relative;
+	left: 117px;
+}
+.bottom-part-footer .bottom-menu >li{
+	float: left;
+	list-style: none;
+	display: block;
+}
+.bottom-part-footer .bottom-menu{
+	content: "";
+	clear: both;
+	display: block;
+}
+.bottom-part-footer .bottom-menu li a{
+	text-decoration: none;
+	font-family: Arial sans-serif;
+	font-size: 12px;
+	color: #bec6c9;
+}
+.bottom-part-footer .bottom-menu li a:hover{
+	color: #52abcb;
+}
+.bottom-part-footer .bottom-menu li span{
+	padding: 0 11px;
+}
+.bottom-part-footer .bottom-menu{
+	position: relative;
+	left: 310px;
+}
+.bottom-part-footer .copyright{
+	color: #7f4740;
+	font-size: 10px;
+	font-family: Arial sans-serif;
+	position: relative;
+	left: 378px;
 }
