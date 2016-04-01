@@ -1,10 +1,22 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothicregular-webfont.eot');
+    src: url('../fonts/leaguegothicregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothicregular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothicregular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothicregular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
 	width: 100%;
-	background-color: #000;	
+	background-color: #000;
+	font-family: 'League Gothic', Arial, sans-serif;
 }
 .wrapper{
 	width:100%;
@@ -50,4 +62,18 @@ body{
 }
 .menu__item:hover .menu-submenu__list{
 	display: block;
+}
+.menu-submenu__item{
+	border-top: 1px solid #54405c;
+	border-bottom: 1px solid #35273d;
+}
+.menu__link{
+	line-height: 39px;
+	font-size: 24px;
+}
+.menu-submenu__link{
+	line-height: 39px;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'League Gothic' Arial sans-serif;
 }
