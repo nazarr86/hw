@@ -165,21 +165,35 @@ nav{
 	background: -webkit-linear-gradient(top, #745183 0%,#36293d 100%);
 	background: linear-gradient(to bottom, #745183 0%,#36293d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745183', endColorstr='#36293d',GradientType=0 );
+	position: relative;
+	overflow: hidden;
+}
+.about-our__item:first-child{
+	margin-top: 71px;
 }
 .about-our__item{
-	border: 1px solid black;
 	width: 70%;
 	color: #FFF;
+	float: left;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+.about-our__header{
+	font-size: 24px;
+	background: url(../img/key.png) 0 0 no-repeat;
+	padding-left: 57px;
 }
 .about-our__text{
-	height: 60px;
+	height: 52px;
 	overflow: hidden;
 	font-size: 16px;
 	letter-spacing: -0.1px;
+	padding-left: 57px;
 }
 .about-our__more{
 	color: #fff;
+	display: inline;
 	text-decoration: none;
-	text-align: right;
+	text-align: center;
 	font-size: 18px;
 }
