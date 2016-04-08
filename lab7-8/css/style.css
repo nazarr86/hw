@@ -167,6 +167,8 @@ nav{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745183', endColorstr='#36293d',GradientType=0 );
 	position: relative;
 	overflow: hidden;
+	border-top: 1px solid #34263b;
+	border-bottom: 1px solid #21333b;
 }
 .about-our__item:first-child{
 	margin-top: 71px;
@@ -192,8 +194,16 @@ nav{
 }
 .about-our__more{
 	color: #fff;
-	display: inline;
+	display: block;
 	text-decoration: none;
-	text-align: center;
+	text-align: right;
 	font-size: 18px;
+	margin-top: 20px;
+}
+.about-our__more:hover{
+	text-shadow: 2px 2px 8px #ffffff;
+}
+.second-block{
+	height: 1207px;
+	background: #f9f9f9;
 }
