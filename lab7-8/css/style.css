@@ -204,8 +204,9 @@ nav{
 	text-shadow: 2px 2px 8px #ffffff;
 }
 .second-block{
-	height: 1207px;
+	height: 784px;
 	background: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
 }
 .info-slider__box{
 	position: relative;
@@ -273,6 +274,9 @@ nav{
 .recent-updates__title{
 	font-size: 30px;
 	color: #454545;
+	margin-bottom: 20px;
+	margin-left: -25px;
+	
 }
 .recent-updates__header{
 	font-size: 16px;
@@ -281,8 +285,43 @@ nav{
 .recent-updates__text{
 	font-size: 16px;
 	color: #454545;
+	padding-top: 9px;
 }
 .recent-updates__item{
 	background: url(../img/img-circle.png) 0 0 no-repeat;
 	padding-left: 65px;
+	padding-bottom: 22px;
+	margin-left: -25px;
+}
+.recent-updates__more{
+	display: block;
+	text-align: right;
+	color: #454545;
+	font-size: 18px;
+	text-decoration: none;
+}
+.thierd-block{
+	height: 422px;
+	width: 100%;
+	background: #f9f9f9;
+	border-top: 1px solid #fefefe;
+	border-bottom: 1px solid #fefefe;
+}
+.company-logos__item{
+	float: left;
+	list-style: none;
+	width:35%;
+	margin-left: 10%;
+	margin-bottom: 58px;
+}
+.company-logos{
+	position: relative;
+	overflow: hidden;
+	padding-top: 50px;
+}
+/*---------FOOTER-------------*/
+.footer{
+	background: url(../img/background-footer.jpg) 50% 0 no-repeat;
+	height: 201px;
+	width: 100%
 }
